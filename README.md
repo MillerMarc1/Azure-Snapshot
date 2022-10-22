@@ -15,6 +15,7 @@ Azure Snapshots includes two different scripts:
 
 - takeSnapshot.ps1
 - deleteSnapshot.ps1
+
 *takeSnapshot.ps1* - takes in user input and takes a snapshot of disks attached to a VM.
 
 *deleteSnapshot.ps1* - deletes snapshots based on the "Expiration" tag value. This value is applied when taking a snapshot with takeSnapshot.ps1
